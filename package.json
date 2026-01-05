@@ -1,0 +1,21 @@
+{
+  "name": "@kienbt11/random-user-card",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist" 
+  ],
+  "main": "./dist/random-user-card.umd.cjs",
+  "module": "./dist/random-user-card.js",
+  "exports": {
+    ".": {
+      "import": "./dist/random-user-card.js",
+      "require": "./dist/random-user-card.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
